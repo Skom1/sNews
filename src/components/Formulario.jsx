@@ -31,15 +31,6 @@ const Formulario = () => {
                         >{categoria.label}</MenuItem>
                     ))}
                 </Select>
-                <Box sx={{marginTop: 2}}>
-                    <Button
-                        fullWidth
-                        variant={"contained"}
-                        color={"secondary"}
-                    >
-                        Buscar Noticias
-                    </Button>
-                </Box>
             </FormControl>
         </form>
     );
